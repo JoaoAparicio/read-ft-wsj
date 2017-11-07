@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Read FT and WSJ",
+  "background":
+  {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["*://*.ft.com/*","*://*.wsj.com/*", "webRequest", "webRequestBlocking"],
+  "version": "1.0.0"
+}
