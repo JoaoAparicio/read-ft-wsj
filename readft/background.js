@@ -2,7 +2,7 @@
 
 var ref = 'https://www.facebook.com/';
 
-browser.webRequest.onBeforeSendHeaders.addListener(function (details)
+chrome.webRequest.onBeforeSendHeaders.addListener(function (details)
 {
   var requestHeaders = details.requestHeaders;
 
